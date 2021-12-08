@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Estilo do cabeçalho/menu */
+div.cabecalho {
+    background: #DDBCB3;
+    height: 50px;
+}
+
+.menu {
+    float: left;
+    padding: 10px;
+    font-style: italic;
+}
+
+.login button {
+    margin: 10px 10px 10px 10px;
+    float: right;
+    cursor: pointer;
+    background-color: #DDBCB3;
+    border: none;
+    font-style: italic;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Estilo da divulgação padina index */
+.principal {
+    margin-top: 10px;
+}
+
+#conteudo-1 {
+    width: 60%;
+    margin: auto;
+    float: left;
+    padding: 50px;
+}
+
+div#divulgacao {
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+
+p#divulgacao {
+    text-align: center;
+    font-style: italic;
+}
+
+#conteudo-2 {
+    width: 40%;
+    margin: auto;
+    float: right;
+    padding: 50px;
+}
+
+div#localizacao {
+    margin-top: 40px;
+    width: 100%;
+}
+
+div#localizacao-text {
+    float: left;
+    text-align: right;
+    width: 50%;
+    height: 245px;
+    padding: 20px;
+}
+
+p#localizacao-text {
+    font-weight: 600;
+}
+
+div#mapa {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Estilo rodape/redes sociais */
+.rodape {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: #DDBCB3;
+}
+
+.redes-sociais {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Formatação de tabela do bootstrap */
+/* Estilo da pagina catálogo */
+div.catalogo{
+    width: 80%;
+    margin: auto;
+}
+
+/* Estilo da pagina agendamento */
+div.agendamento {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1.agendamento {
+    font-weight: 700;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+form.agendamento label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+form.agendamento input,select {
+    width: 450px;
+    outline: none;
+}
+
+form.agendamento button[type="submit"] {
+    margin: 30px auto 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 35px;
+    padding: 10px;
+    background-color: #DDBCB3;
+    font-weight: 700;
+}
+
+/* Estilo da tela de login */
+
+.form_login {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+form.form_login button[type="submit"] {
+    margin: 30px auto 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 35px;
+    padding: 10px;
+    background-color: #DDBCB3;
+    font-weight: 700;
+    color: black;
+}
+/* Estilo do painel */
+div.painel {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+form.painel button[type="submit"] {
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 35px;
+    padding: 10px;
+    background-color: #DDBCB3;
+    font-weight: 700;
+    color: black;
+}
+form.painel label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+form.painel input,select {
+    width: 450px;
+    outline: none;
+}
+/* Estilo da pagina de agenda */
+.agenda{
+    width: 80%;
+    margin: auto;
+}
+.confir_agenda{
+    color: green;
+}
